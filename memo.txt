@@ -3,3 +3,6 @@ hello git!
 
 ここのやり方で勉強
 https://qiita.com/nnahito/items/565f8755e70c51532459
+
+よくわからないけど、デフォルトのリポがmainになっているので、git push origin mainがエラーになるので、
+git push origin masterでブランチを作ってから、mainを消すことにしたよ。
