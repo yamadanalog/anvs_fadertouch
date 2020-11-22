@@ -12,3 +12,4 @@ git push -f origin master
 そしたらREADME.mdが消えちゃったので、ローカルでREADME.mdを作ってgit pushした。
 多分-fは無理やりpushするんだろう。
 
+ローカルの違うフォルダーのファイルをアップロードするときは、今のgit しているフォルダーに移動もしくはコピーしないといえk内のdね。
