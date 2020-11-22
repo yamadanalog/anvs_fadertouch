@@ -6,3 +6,9 @@ https://qiita.com/nnahito/items/565f8755e70c51532459
 
 よくわからないけど、デフォルトのリポがmainになっているので、git push origin mainがエラーになるので、
 git push origin masterでブランチを作ってから、mainを消すことにしたよ。
+
+そのあとgit push origin masterしたらエラーが出たので、以下を行ったよ。
+git push -f origin master
+そしたらREADME.mdが消えちゃったので、ローカルでREADME.mdを作ってgit pushした。
+多分-fは無理やりpushするんだろう。
+
