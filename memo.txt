@@ -18,3 +18,8 @@ github desktopではローカルのリポジトリのファイルを変更する
 
 Readmeに使う画像をどこにおくべき？
 ローカルにimageフォルダを作ってそこに入れる。commit、pushすればフォルダごとアップされる。
+
+パッケージのimage copipeを使うと便利
+https://atom.io/packages/image-copipe
+そのままでは使用できなかったので、client IDを取得して、img.toPngをimg.toPNGに変更したらアップロードできた。
+Oauth2でwithout call back URLを選択した
